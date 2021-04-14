@@ -9,7 +9,7 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>usian_item_feign</artifactId>
+    <artifactId>usian_content_feign</artifactId>
     <dependencies>
         <!--Spring Cloud OpenFeign Starter -->
         <dependency>
@@ -27,6 +27,5 @@
             <version>1.0-SNAPSHOT</version>
         </dependency>
     </dependencies>
-
 
 </project>

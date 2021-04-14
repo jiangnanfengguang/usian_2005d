@@ -7,6 +7,8 @@ public class PageResult {
     private Long totalPage; //总页数
     private List result; //结果集
 
+
+
     public Integer getPageIndex() {
         return pageIndex;
     }
@@ -29,5 +31,23 @@ public class PageResult {
 
     public void setResult(List result) {
         this.result = result;
+    }
+
+    public PageResult(Integer pageIndex, Long totalPage, List result) {
+        this.pageIndex = pageIndex;
+        this.totalPage = totalPage;
+        this.result = result;
+    }
+
+    public PageResult() {
+    }
+
+    @Override
+    public String toString() {
+        return "PageResult{" +
+                "pageIndex=" + pageIndex +
+                ", totalPage=" + totalPage +
+                ", result=" + result +
+                '}';
     }
 }
